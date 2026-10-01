@@ -1,0 +1,91 @@
+{
+  "trained_at": "2026-10-01T15:46:05.574852",
+  "dataset_size": 1500,
+  "train_size": 1200,
+  "test_size": 300,
+  "feature_count": 25,
+  "feature_names": [
+    "age",
+    "year_of_study",
+    "attendance_rate",
+    "avg_assignment_score",
+    "midterm_score",
+    "study_hours_per_week",
+    "extracurricular_activities",
+    "part_time_job",
+    "financial_aid",
+    "previous_gpa",
+    "missed_deadlines",
+    "library_visits_per_month",
+    "online_platform_usage_hrs",
+    "gender_F",
+    "gender_M",
+    "gender_Other",
+    "major_Arts",
+    "major_Business",
+    "major_Computer Science",
+    "major_Engineering",
+    "major_Science",
+    "parent_education_level_Bachelor",
+    "parent_education_level_Graduate",
+    "parent_education_level_HighSchool",
+    "parent_education_level_None"
+  ],
+  "classifier": {
+    "algorithm": "Gradient Boosting",
+    "metrics": {
+      "accuracy": 0.8833333333333333,
+      "precision": 0.8705496151491298,
+      "recall": 0.844410210832963,
+      "f1": 0.8558830994597338,
+      "roc_auc": 0.9705714136117704,
+      "cv_f1_mean": 0.8879385657615524
+    },
+    "all_models": {
+      "Logistic Regression": {
+        "accuracy": 0.8666666666666667,
+        "precision": 0.8697514225816113,
+        "recall": 0.8325843084975065,
+        "f1": 0.8480198607395363,
+        "roc_auc": 0.9754292821443418,
+        "cv_f1_mean": 0.8861519177913534
+      },
+      "Random Forest": {
+        "accuracy": 0.8766666666666667,
+        "precision": 0.8713229299974762,
+        "recall": 0.8389537352490989,
+        "f1": 0.8528927274963859,
+        "roc_auc": 0.9737078080578483,
+        "cv_f1_mean": 0.8882641687261451
+      },
+      "Gradient Boosting": {
+        "accuracy": 0.8833333333333333,
+        "precision": 0.8705496151491298,
+        "recall": 0.844410210832963,
+        "f1": 0.8558830994597338,
+        "roc_auc": 0.9705714136117704,
+        "cv_f1_mean": 0.8879385657615524
+      }
+    }
+  },
+  "regressor": {
+    "algorithm": "Gradient Boosting Reg",
+    "metrics": {
+      "mae": 0.11380255020048298,
+      "rmse": 0.14327059224392935,
+      "r2": 0.9623228990818004
+    },
+    "all_models": {
+      "Linear Regression": {
+        "mae": 0.11652374711158148,
+        "rmse": 0.1442755286988049,
+        "r2": 0.9617924917969295
+      },
+      "Gradient Boosting Reg": {
+        "mae": 0.11380255020048298,
+        "rmse": 0.14327059224392935,
+        "r2": 0.9623228990818004
+      }
+    }
+  }
+}

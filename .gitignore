@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# SQLite runtime files (regenerated automatically)
+data/predictions.db
+data/predictions.db-shm
+data/predictions.db-wal
+
+# Keep model artifacts and dataset (needed for cloud deploy)
+!models/*.pkl
+!models/*.json
+!models/.gitkeep
+!data/raw/students.csv
+!data/processed/students_processed.csv
+!data/processed/confusion_matrix.png
+!data/processed/roc_curve.png
+!data/processed/feature_importance.png
